@@ -19,3 +19,14 @@
   > python manage.py startapp myapp
   
   > python manage.py runserver
+
+## Install MYSQL
+	> Download (https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient)
+	> pip install mysqlclient-1.4.4-cp37-cp37m-win32.whl
+	> Go to myProject-setting
+	> INSTALLED_APPS
+	> Set DATABASES
+
+## Make Migration
+	> python manage.py makemigrations
+	> python manage.py migrate
